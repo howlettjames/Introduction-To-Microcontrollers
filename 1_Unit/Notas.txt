@@ -1,0 +1,5 @@
+1. Archivos fuente(.c, .s): Estos archivos tienen el código fuente de la aplicación, la cual puede codificarse en C o Ensamblador o ambos.
+
+2. Archivos de cabecera (.h, .pnc). Estos archivos tienen definidos todos los registros del procesador y todos los bits de cada registro. También tienen la opciones de configuración del oscilador, reset, "posicion on reset", "brown out reset" y protección de código.
+
+3. Archivo .GLD: Este archivo tiene definidos los mapas de memoria del procesador y los números de los bits 'ISA's' de cada periférico.
